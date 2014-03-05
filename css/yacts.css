@@ -12,18 +12,13 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  -webkit-animation: rotation .7s infinite linear;
-  -moz-animation: rotation .7s infinite linear;
-  -o-animation: rotation .7s infinite linear;
-  animation: rotation .7s infinite linear;
-  border: 0;
-  border-left: 10px solid rgba(255, 204, 0, 0.2);
-  border-right: 10px solid rgba(255, 204, 0, 0.2);
-  border-bottom: 10px solid rgba(255, 204, 0, 0.2);
-  border-top: 10px solid rgba(255, 204, 0, 0.8);
-  border-style: double;
-  border-top-style: double;
+  border: 10px double rgba(255, 204, 0, 0.2);
+  border-top: 10px double rgba(255, 204, 0, 0.8);
   border-radius: 100%;
+  -webkit-animation: rotation 0.7s infinite linear;
+  -moz-animation: rotation 0.7s infinite linear;
+  -o-animation: rotation 0.7s infinite linear;
+  animation: rotation 0.7s infinite linear;
 }
 /* keyframes */
 @-webkit-keyframes rotation {
